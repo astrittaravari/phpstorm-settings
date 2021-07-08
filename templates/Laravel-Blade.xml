@@ -1,10 +1,4 @@
 <templateSet group="Laravel-Blade">
-  <template name="@if" value="@if ($START$)&#10;    $END$&#10;@endif" description="Blade @if" toReformat="false" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JSP" value="false" />
-    </context>
-  </template>
   <template name="@forminput" value="      &quot;&lt;div class=\&quot;mb-6\&quot;&gt;&quot;,&#10;      &quot;    &lt;label class=\&quot;block mb-2 text-xs font-bold text-gray-700 uppercase\&quot;&quot;,&#10;      &quot;           for=\&quot;${1/(.*)/${1:/downcase}/}\&quot;&gt;&quot;,&#10;      &quot;        {{ __('$1') }}&quot;,&#10;      &quot;    &lt;/label&gt;&quot;,&#10;      &quot;    &lt;input class=\&quot;w-full p-2 border border-gray-400 rounded\&quot;&quot;,&#10;      &quot;           type=\&quot;text\&quot;&quot;,&#10;      &quot;           id=\&quot;${1/(.*)/${1:/downcase}/}\&quot;&quot;,&#10;      &quot;           name=\&quot;${1/(.*)/${1:/downcase}/}\&quot;&quot;,&#10;      &quot;           value=\&quot;\&quot;&quot;,&#10;      &quot;           required&gt;&quot;,&#10;      &quot;&lt;/div&gt;&quot;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
